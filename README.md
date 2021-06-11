@@ -1,5 +1,7 @@
 # test_repo
 
+![image](https://user-images.githubusercontent.com/45585087/121700378-ce870a00-cb0a-11eb-9b85-8adfc8d3bb75.png)
+
 0
 목차
 1 개발 목적
@@ -107,7 +109,6 @@ jdk 설치 및 환경 변수 설정
 5. 웹 브라우저에 http://localhost:8080이라고 치고 아까 복사했던 내용 붙여넣기(예- http://localhost:8080/[프로젝트명])
 6. 엔터
 7. Hello world! 뜨면 성공
-![image](https://user-images.githubusercontent.com/45585087/121700378-ce870a00-cb0a-11eb-9b85-8adfc8d3bb75.png)
 
 9
 encoding 변경(선택 사항)
