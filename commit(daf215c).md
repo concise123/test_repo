@@ -1,5 +1,7 @@
 DB(PostgreSQL) 연동
 
+![image](https://user-images.githubusercontent.com/45585087/122085318-90a52100-ce3d-11eb-93fb-60397219ccb2.png)
+
 
 1. https://www.postgresql.org에서 postgresql을 다운로드 (버전 : PostgreSQL 10.17, compiled by Visual C++ build 1800, 64-bit)
 2. exe 파일 실행
