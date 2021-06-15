@@ -15,8 +15,10 @@
 9 encoding 변경(선택 사항)
 10 jdk 변경(선택 사항)
 11 깃허브 연동
-12 참조
-13 시행착오
+12 누락된 부분 추가
+13 참조
+14 시행착오
+
 
 1
 개발 목적
@@ -229,6 +231,22 @@ jdk 변경(선택 사항)
 35. Commit and push 버튼 클릭 
 
 12
+누락된 부분 추가
+1. Window 클릭
+2. Preferences 클릭
+3. Complier compliacne level 1.8로 변경 (아래 그림 참조) 
+![image](https://user-images.githubusercontent.com/45585087/122076145-96970400-ce35-11eb-8003-f3ad77f51cc0.png)
+
+4. 생성한 프로젝트 우클릭
+5. Properties 클릭
+6. Complier compliacne level 1.8로 변경 (아래 그림 참조)
+![image](https://user-images.githubusercontent.com/45585087/122076466-dd84f980-ce35-11eb-8c9c-78903e286595.png)
+
+7. pom.xml 열기
+8. maven compiler plugin source, target 1.8로 변경 (아래 그림 참조)
+![image](https://user-images.githubusercontent.com/45585087/122076733-14f3a600-ce36-11eb-9b9d-b59cbc131a24.png)
+  
+13
 참조
 스프링 프로젝트 생성 - https://all-record.tistory.com/156
 스프링 프로젝트 생성 - https://addio3305.tistory.com/36
@@ -238,7 +256,9 @@ encoding 변경 - https://javaengine.tistory.com/entry/JSP-UTF-8-%ED%95%9C%EA%B8
 jdk 변경 - https://kim-hoya.tistory.com/41
 jdk 변경- https://sbell92.tistory.com/38
 깃허브 연동 - https://m.blog.naver.com/rlqud1125/221658862879
+누락된 부분 추가 - https://senni.tistory.com/8
+누락된 부분 추가 - https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=ajdkfl6445&logNo=221549536647
 
-13
+14
 시행착오
 나중에 작성 예정
