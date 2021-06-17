@@ -19,9 +19,10 @@ public class UserInfoController {
 	
 		@RequestMapping(value="/userInfo", method=RequestMethod.GET)
 		public String getUserInfo(Model model) {
-			List<UserInfoDto> list = dao.getUserInfo();
-			model.addAttribute("FIRST_USER_ID", list.get(0).getUser_id());
-			model.addAttribute("FIRST_USER_NAME", list.get(0).getUser_name());
+			List<UserInfoDto> userInfoList = dao.getUserInfo();
+			for(int i = 0; i < userInfoList.size(); i++) {
+				model.addAttribute("USER_INFO_LIST", userInfoList);
+			}
 			return "userInfo";
 		}
 }

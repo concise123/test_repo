@@ -8,6 +8,8 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<P>첫 번째 사용자 아이디는 ${FIRST_USER_ID}입니다. 첫 번째 사용자 이름은 ${FIRST_USER_NAME}입니다.</P>
+	<c:forEach var="userInfoList" items="${USER_INFO_LIST}" varStatus="status">
+    	<p>${status.count} : 사용자 아이디는 <c:out value="${userInfoList.user_id}"/>입니다. 사용자 이름은 <c:out value="${userInfoList.user_name}"/>입니다.</p>
+	</c:forEach>
 </body>
 </html>
