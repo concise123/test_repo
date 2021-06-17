@@ -5,9 +5,33 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>USER INFO</title>
+<style>
+	table {
+		border-collapse: collapse;
+	}
+	table, th, td {
+		border: 0.5px solid black;
+	}
+	th, td {
+		text-align: center;
+	}
+</style>
 </head>
 <body>
-	<P>첫 번째 사용자 아이디는 ${FIRST_USER_ID}입니다. 첫 번째 사용자 이름은 ${FIRST_USER_NAME}입니다.</P>
+	<table>
+		<tr>
+			<th>순서</th>
+			<th>아이디</th>
+			<th>이름</th>
+		</tr>
+		<c:forEach var="userInfoList" items="${USER_INFO_LIST}" varStatus="status">
+    	<tr>
+	    	<td>${status.count}</td>
+	    	<td><c:out value="${userInfoList.user_id}"/></td>
+	    	<td><c:out value="${userInfoList.user_name}"/></td>
+    	</tr>
+		</c:forEach>
+	</table>
 </body>
 </html>
